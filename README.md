@@ -1,4 +1,4 @@
-# graphql-no-data-base
+# api-graphql-sem-banco-de-dados
 Projetinho de GraphQL em Node JS sem a utilização de bando de dados.  
 
 ## Criando o projeto
