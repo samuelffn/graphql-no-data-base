@@ -38,7 +38,7 @@ Para utilização do projeto basta fazer um git clone conforme informado anterio
 Dependência para ser utilizada apenas no ambiente de *desenvolvimento*.  
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
 - Instalação:  
-**npm install -D nodemon**  
+**npm install -D nodemon** ou  **yarn add nodemon -D**  
 
 - Utilização:  
 1) Acessa o package.json  
