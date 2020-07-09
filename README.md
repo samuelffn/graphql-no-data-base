@@ -49,13 +49,23 @@ Obs.: O npm run serve para executar os comandos que estão em script
 1) Executando no terminal: **npm run start** ou **yarn start**  
 2) Abra o navegador e acesse: **http://localhost:4000**  
 3) Observe que o navegador que o **Play Ground** já é carregado. Ele é como um Insomnia ou Postman da vida. No Play Ground faremos os nossos testes. 
-4) Na área abaixo da URL digite a query: 
+4) Na área abaixo da URL digite a query:  
+No lado esquerdo digite:  
 ```
   query {
     hello // É o nome da Query que criamos no nosso Schema
   }
 ```
-5) Observe que o Play Ground gerar uma mini documentação da API, basta clicar nas abas localizadas no lado esquerdo da tela: **Docs** e **Schema**.  
+O resultado será mostrado no lado direito:  
+```
+  {
+    "data": {
+      "hello": "Hello world"
+    }
+  }
+```
+
+5) Observe que o Play Ground gerar uma mini documentação da API, basta clicar nas abas localizadas no lado direito da tela: **Docs** e **Schema**.  
 
 
 
