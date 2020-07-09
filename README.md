@@ -53,14 +53,14 @@ Obs.: O npm run serve para executar os comandos que estão em script
 No lado esquerdo digite:  
 ```
   query {
-    hello // É o nome da Query que criamos no nosso Schema
+    hello   // É o nome da Query que criamos no nosso Schema
   }
 ```
 O resultado será mostrado no lado direito:  
 ```
   {
     "data": {
-      "hello": "Hello world" // Nossa query "hello" retornou a frase "Hello world" que definimos no response
+      "hello": "Hello world"   // Nossa query "hello" retornou a frase "Hello world" que definimos no response
     }
   }
 ```
