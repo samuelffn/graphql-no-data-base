@@ -25,7 +25,7 @@ O resultado será mostrado no lado direito:
     }
   }
 ```
-5) Observe que o Play Ground gerar uma mini documentação da API, basta clicar nas abas localizadas no lado direito da tela: **Docs** e **Schema**.  
+5) Observe que o Playground gerar uma mini documentação da API, basta clicar nas abas localizadas no lado direito da tela: **Docs** e **Schema**.  
 
 ## Informações sobre a criação do projeto
 Para utilização do projeto basta fazer um git clone conforme informado anteriormente, mas aqui neste tópico seguem os passos de como criar o projeto do zero: 
