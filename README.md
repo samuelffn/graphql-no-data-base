@@ -9,7 +9,7 @@ Projetinho de GraphQL em Node JS sem a utilização de bando de dados.
 ## Testando a API
 1) Executando no terminal: **npm run start** ou **yarn start**  
 2) Abra o navegador e acesse: **http://localhost:4000**  
-3) Observe que o navegador que o **Play Ground** já é carregado. Ele é como um Insomnia ou Postman da vida. No Play Ground faremos os nossos testes. 
+3) Observe que o navegador que o **Playground** já é carregado. Ele é como um Insomnia ou Postman da vida. No Playground faremos os nossos testes. 
 4) Na área abaixo da URL digite a query:  
 No lado esquerdo digite:  
 ```
@@ -70,7 +70,7 @@ Obs.: O npm run serve para executar os comandos que estão em script
   const server = new ApolloServer({ typeDefs, resolvers }); // Criando o Apollo com os meus schemas e resolvers
   server.listen().then(({ url }) => console.log(`Server started at ${url}`)); // Startando o meu server, que por padrão roda na porta 4000
 ```
-### Exemplos para requisições no Play Ground
+### Exemplos para requisições no Playground
 **Query**  
 *hello*  
 ```
