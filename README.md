@@ -24,3 +24,23 @@ Obs.: O npm run serve para executar os comandos que estão em script
 
 ### Executando a aplicação
 **npm run dev** ou **yarn dev**
+
+### Código inicial para um Hello World
+**index.js**  
+```
+  const { apolloServer, gql, ApolloServer } = require('apollo-server');
+
+  const typeDefs = gql`
+      type Query {
+          hello: String
+      }
+  `;
+  const resolvers = {
+      Query: {
+          hello: () => 'Hello world'
+      }
+  };
+
+  const server = new ApolloServer({ typeDefs, resolvers });
+  server.listen().then(({ url }) => console.log(`Server started at ${url}`));
+```
