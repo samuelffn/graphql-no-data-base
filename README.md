@@ -60,7 +60,7 @@ O resultado será mostrado no lado direito:
 ```
   {
     "data": {
-      "hello": "Hello world"
+      "hello": "Hello world" // Nossa query "hello" retornou a frase "Hello world" que definimos no response
     }
   }
 ```
