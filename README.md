@@ -17,8 +17,8 @@ Ela faz com que ao salvar alguma alteração o servidor faça a atualização se
 - Utilização:  
 1) Acessa o package.json  
 2) Em scripts, cria uma nova propriedade informando o local onde está o server, no caso está em **src**  
-  2.1- Criando o comando: **"dev": "nodemon src/index.js"** ou **"dev": "npx nodemon src/index.js"**  
-  2.2- O nome **dev** pode ser o que você quiser. Ex.: **"start": "nodemon src/index.js**   
+  2.1- Criando o comando: **"dev": "nodemon src/index.js",** ou **"dev": "npx nodemon src/index.js",**  
+  2.2- O nome **dev** pode ser o que você quiser. Ex.: **"start": "nodemon src/index.js",**   
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
