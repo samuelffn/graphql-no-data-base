@@ -8,10 +8,10 @@ Para utilização do projeto basta fazer um git clone, mas aqui seguem os passos
 3) Instala o apolo-server e o graphql: **npm i apollo-server graphql** ou **yarn add apollo-server graphql**
 4) Na raíz do projeto cria uma pasta **src** e um arquivo **index.js**
 
-#### nodemon
+### nodemon
 Dependência para ser utilizada apenas no ambiente de **desenvolvimento**.  
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
-**Instalação:**
+**Instalação:**  
 npm install -D nodemon
 
 **Utilização:**  
@@ -21,5 +21,5 @@ npm install -D nodemon
 3) No terminal executa a aplicação usando o comando: **npm run dev**  
 Obs.: O npm run serve para executar os comandos que estão em script  
 
-#### Executando a aplicação
+### Executando a aplicação
 **npm run dev** ou **yarn dev**
