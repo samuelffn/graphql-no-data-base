@@ -70,7 +70,42 @@ Obs.: O npm run serve para executar os comandos que estão em script
   const server = new ApolloServer({ typeDefs, resolvers }); // Criando o Apollo com os meus schemas e resolvers
   server.listen().then(({ url }) => console.log(`Server started at ${url}`)); // Startando o meu server, que por padrão roda na porta 4000
 ```
+### Exemplos para requisições no Play Ground
+**Query**  
+*hello*  
+```
+{
+  hello
+}
+```  
 
+*users*  
+```
+query {
+	users {
+    id name email active
+  }
+}
+```  
+
+*getUserByEmail*  
+```
+query {
+    getUserByEmail(email: "samuel@mail.com") {
+        id name email active
+    }
+}
+```  
+
+**Mutation**  
+*createUser*  
+```
+mutation {
+    createUser (name: "França", email: "franca@mail.com") {
+        id name email active
+    }
+}
+```  
 
 
 
