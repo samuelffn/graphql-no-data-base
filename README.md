@@ -34,6 +34,9 @@ Para utilização do projeto basta fazer um git clone conforme informado anterio
 3) Instala o apolo-server e o graphql: **npm i apollo-server graphql** ou **yarn add apollo-server graphql**
 4) Na raíz do projeto cria uma pasta **src** e um arquivo **index.js**
 
+### GraphQL
+Instalando o GraphQL: **npm i apollo-server graphql** ou **yarn add apollo-server graphql**  
+
 ### Nodemon  
 Dependência para ser utilizada apenas no ambiente de *desenvolvimento*.  
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
